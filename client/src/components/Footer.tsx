@@ -40,7 +40,7 @@ export default function Footer() {
             <h4 className="text-sm font-semibold">Connect</h4>
             <div className="flex gap-3">
               <a
-                href="https://wa.me/254741222877"
+                href="https://wa.me/+254741222877"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg hover-elevate active-elevate-2 transition-all"
@@ -50,7 +50,7 @@ export default function Footer() {
                 <SiWhatsapp className="h-5 w-5" />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/JBCyberLogics"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg hover-elevate active-elevate-2 transition-all"
@@ -60,7 +60,7 @@ export default function Footer() {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/018ga_zer/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg hover-elevate active-elevate-2 transition-all"
