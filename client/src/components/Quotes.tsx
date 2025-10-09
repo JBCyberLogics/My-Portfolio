@@ -3,20 +3,28 @@ import { Quote } from "lucide-react";
 
 const quotes = [
   {
-    text: "I cannot make you understand. I cannot make anyone understand what is happening inside me. I cannot even explain it to myself.",
+    text: "Test everything, hold on to what is good. Even from the book of devils.",
     author: "Franz Kafka",
   },
   {
-    text: "In the midst of winter, I found there was, within me, an invincible summer.",
-    author: "Albert Camus",
+    text: "Pain and suffering are always inevitable for a large intelligence and a deep heart. The really great men must, I think, have great sadness on earth.",
+    author: "Fyodor Dostoevsky",
   },
   {
-    text: "A man's suffering is similar to the behavior of gas. If a certain quantity of gas is pumped into an empty chamber, it will fill the chamber completely and evenly, no matter how big the chamber. Thus suffering completely fills the human soul and conscious mind, no matter whether the suffering is great or little.",
+    text: "Everyone sees what you appear to be, few experience what you really are.",
+    author: "Niccolò Machiavelli",
+  },
+  {
+    text: "It is better to be feared than loved, if you cannot be both.",
+    author: "Niccolò Machiavelli",
+  },
+  {
+    text: "Man is what he believes.",
+    author: "Fyodor Dostoevsky",
+  },
+  {
+    text: "Youth is happy because it has the capacity to see beauty. Anyone who keeps the ability to see beauty never grows old.",
     author: "Franz Kafka",
-  },
-  {
-    text: "The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion.",
-    author: "Albert Camus",
   },
 ];
 

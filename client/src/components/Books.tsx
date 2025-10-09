@@ -3,23 +3,23 @@ import { BookOpen } from "lucide-react";
 
 const books = [
   {
-    title: "Meditations",
-    author: "Marcus Aurelius",
+    title: "Crime and Punishment",
+    author: "Fyodor Dostoevsky",
     cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400&h=600&fit=crop",
   },
   {
-    title: "The Obstacle Is the Way",
-    author: "Ryan Holiday",
+    title: "The Metamorphosis",
+    author: "Franz Kafka",
     cover: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=400&h=600&fit=crop",
   },
   {
-    title: "Discipline Equals Freedom",
-    author: "Jocko Willink",
+    title: "The Little Book of Stoicism",
+    author: "Jonas Salzgeber",
     cover: "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&h=600&fit=crop",
   },
   {
-    title: "The Daily Stoic",
-    author: "Ryan Holiday",
+    title: "The Prince",
+    author: "Niccolò Machiavelli",
     cover: "https://images.unsplash.com/photo-1589998059171-988d887df646?w=400&h=600&fit=crop",
   },
 ];
