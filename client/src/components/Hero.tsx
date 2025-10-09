@@ -1,6 +1,8 @@
-import { Mail, Phone, Github, Linkedin } from "lucide-react";
+import { Mail, Phone, Github, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { SiWhatsapp } from "react-icons/si";
+import profileImage from "@assets/WhatsApp Image 2025-10-09 at 15.03.48_92a61b85_1760011508093.jpg";
 
 interface HeroProps {
   onContactClick?: () => void;
@@ -13,7 +15,7 @@ export default function Hero({ onContactClick }: HeroProps) {
         <div className="grid md:grid-cols-5 gap-12 md:gap-16 items-center">
           <div className="md:col-span-2 flex justify-center md:justify-start">
             <Avatar className="h-64 w-64 md:h-80 md:w-80 shadow-2xl border-4 border-card">
-              <AvatarImage src="https://api.dicebear.com/7.x/avataaars/svg?seed=Johnbithon" alt="Johnbithon Muchiri Wanjama" />
+              <AvatarImage src={profileImage} alt="Johnbithon Muchiri Wanjama" />
               <AvatarFallback className="text-6xl">JW</AvatarFallback>
             </Avatar>
           </div>

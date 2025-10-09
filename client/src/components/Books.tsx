@@ -3,19 +3,24 @@ import { BookOpen } from "lucide-react";
 
 const books = [
   {
-    title: "Kafka on the Shore",
-    author: "Haruki Murakami",
+    title: "Meditations",
+    author: "Marcus Aurelius",
     cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400&h=600&fit=crop",
   },
   {
-    title: "The Stranger",
-    author: "Albert Camus",
+    title: "The Obstacle Is the Way",
+    author: "Ryan Holiday",
     cover: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=400&h=600&fit=crop",
   },
   {
-    title: "Crime and Punishment",
-    author: "Fyodor Dostoevsky",
+    title: "Discipline Equals Freedom",
+    author: "Jocko Willink",
     cover: "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&h=600&fit=crop",
+  },
+  {
+    title: "The Daily Stoic",
+    author: "Ryan Holiday",
+    cover: "https://images.unsplash.com/photo-1589998059171-988d887df646?w=400&h=600&fit=crop",
   },
 ];
 

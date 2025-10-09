@@ -3,16 +3,20 @@ import { Quote } from "lucide-react";
 
 const quotes = [
   {
-    text: "I write to discover what I think.",
-    author: "Joan Didion",
+    text: "I cannot make you understand. I cannot make anyone understand what is happening inside me. I cannot even explain it to myself.",
+    author: "Franz Kafka",
   },
   {
-    text: "The unexamined life is not worth living.",
-    author: "Socrates",
+    text: "In the midst of winter, I found there was, within me, an invincible summer.",
+    author: "Albert Camus",
   },
   {
-    text: "Freedom is secured not by the fulfilment of one's desires, but by the removal of desire.",
-    author: "Epictetus",
+    text: "A man's suffering is similar to the behavior of gas. If a certain quantity of gas is pumped into an empty chamber, it will fill the chamber completely and evenly, no matter how big the chamber. Thus suffering completely fills the human soul and conscious mind, no matter whether the suffering is great or little.",
+    author: "Franz Kafka",
+  },
+  {
+    text: "The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion.",
+    author: "Albert Camus",
   },
 ];
 

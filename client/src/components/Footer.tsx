@@ -1,4 +1,5 @@
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { Github, Instagram } from "lucide-react";
+import { SiWhatsapp } from "react-icons/si";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -39,6 +40,16 @@ export default function Footer() {
             <h4 className="text-sm font-semibold">Connect</h4>
             <div className="flex gap-3">
               <a
+                href="https://wa.me/254741222877"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 rounded-lg hover-elevate active-elevate-2 transition-all"
+                data-testid="link-footer-whatsapp"
+                aria-label="WhatsApp"
+              >
+                <SiWhatsapp className="h-5 w-5" />
+              </a>
+              <a
                 href="https://github.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -49,24 +60,14 @@ export default function Footer() {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg hover-elevate active-elevate-2 transition-all"
-                data-testid="link-footer-linkedin"
-                aria-label="LinkedIn"
+                data-testid="link-footer-instagram"
+                aria-label="Instagram"
               >
-                <Linkedin className="h-5 w-5" />
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 rounded-lg hover-elevate active-elevate-2 transition-all"
-                data-testid="link-footer-twitter"
-                aria-label="Twitter"
-              >
-                <Twitter className="h-5 w-5" />
+                <Instagram className="h-5 w-5" />
               </a>
             </div>
           </div>
