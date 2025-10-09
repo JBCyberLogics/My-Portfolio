@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Server, Network, Shield, Code, Database, Terminal } from "lucide-react";
+import { Server, Network, Shield, Code, Database, Terminal, Wrench, Cpu } from "lucide-react";
 
 const skills = [
   { icon: Server, label: "System Administration", color: "text-primary" },
@@ -9,6 +9,8 @@ const skills = [
   { icon: Code, label: "Web Development", color: "text-chart-2" },
   { icon: Database, label: "Database Management", color: "text-chart-4" },
   { icon: Terminal, label: "Linux & Windows", color: "text-chart-5" },
+  { icon: Wrench, label: "Hardware Maintenance", color: "text-primary" },
+  { icon: Cpu, label: "Computer Maintenance", color: "text-accent" },
 ];
 
 export default function About() {
@@ -28,6 +30,11 @@ export default function About() {
             <p className="text-muted-foreground leading-relaxed">
               I bring a comprehensive approach to IT infrastructure, combining technical expertise with a deep understanding of business needs to deliver reliable, scalable solutions.
             </p>
+            <div className="pt-2">
+              <Badge variant="secondary" className="text-sm">
+                Currently pursuing Mechanical Engineering Diploma
+              </Badge>
+            </div>
           </Card>
 
           <Card className="p-6 md:p-8">
