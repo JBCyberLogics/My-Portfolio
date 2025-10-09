@@ -2,6 +2,7 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import ThemeToggle from "./ThemeToggle";
 import { useState } from "react";
+import logoImage from "@assets/a-modern-logo-design-featuring-the-text-_oEzBGbY2Q36Ao4k6FvDVMA_ax6UxWEETZuicz1wC_mHhA_1760011715663.jpeg";
 
 interface NavigationProps {
   onContactClick?: () => void;
@@ -31,10 +32,11 @@ export default function Navigation({ onContactClick }: NavigationProps) {
         <div className="flex items-center justify-between h-16 md:h-20">
           <button
             onClick={() => scrollToSection("hero")}
-            className="text-lg md:text-xl font-semibold hover-elevate active-elevate-2 px-2 py-1 rounded-md transition-colors"
+            className="flex items-center gap-3 hover-elevate active-elevate-2 px-2 py-1 rounded-md transition-colors"
             data-testid="link-home"
           >
-            Johnbithon Wanjama
+            <img src={logoImage} alt="Logo" className="h-10 w-10 md:h-12 md:w-12 rounded-md object-cover" />
+            <span className="text-lg md:text-xl font-semibold">M.Wanjama</span>
           </button>
 
           <div className="hidden md:flex items-center gap-8">
